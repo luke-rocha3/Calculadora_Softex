@@ -1,85 +1,85 @@
-🎉 Calculadora Simples em Node.js
+# 🎉 Calculadora Simples em Node.js
 
-Mini projeto desenvolvido durante o programa Bolsa Futuro Digital da Softex
-Aprendendo Node.js e reforçando conceitos de lógica de programação, funções e tratamento de erros.
+> Mini projeto desenvolvido durante o programa **Bolsa Futuro Digital** da **Softex**  
+> Aprendendo **Node.js** e reforçando conceitos de **lógica de programação**, **funções** e **tratamento de erros**.
 
-💻 Sobre o Projeto
+---
 
-A Calculadora Simples realiza as 4 operações matemáticas básicas:
+## 💻 Sobre o Projeto
 
-Operação	Símbolo
-Adição	➕
-Subtração	➖
-Multiplicação	✖️
-Divisão	➗
+A **Calculadora Simples** realiza as 4 operações matemáticas básicas:
 
-✅ Funciona direto no terminal, pedindo números e operação, e retorna o resultado na hora.
+| Operação        | Símbolo |
+|-----------------|---------|
+| Adição          | ➕      |
+| Subtração       | ➖      |
+| Multiplicação   | ✖️      |
+| Divisão         | ➗      |
 
-🛠 Tecnologias Utilizadas
+✅ Funciona direto no **terminal**, pedindo números e operação, e retornando o resultado na hora.
 
-Node.js – Ambiente de execução JavaScript no servidor
+---
 
-prompt-sync – Captura entrada do usuário via terminal
+## 🛠 Tecnologias Utilizadas
 
-📂 Estrutura do Código
+- **Node.js** – Ambiente de execução JavaScript no servidor  
+- **prompt-sync** – Biblioteca para capturar entrada do usuário via terminal  
+
+---
+
+## 📂 Estrutura do Código
 
 O projeto é organizado em funções:
 
-somar(a, b) → Adição
+- `somar(a, b)` → Adição  
+- `subtrair(a, b)` → Subtração  
+- `multiplicar(a, b)` → Multiplicação  
+- `dividir(a, b)` → Divisão (com proteção contra divisão por 0)  
+- `lerNumero(mensagem)` → Garante que o usuário digite apenas números válidos  
+- `calculadora()` → Função principal que controla o fluxo  
 
-subtrair(a, b) → Subtração
+---
 
-multiplicar(a, b) → Multiplicação
+## ⚠️ Tratamento de Erros
 
-dividir(a, b) → Divisão (com proteção contra divisão por 0)
-
-lerNumero(mensagem) → Garante que o usuário digite apenas números válidos
-
-calculadora() → Função principal que controla o fluxo
-
-⚠️ Tratamento de Erros
-
-Entrada inválida (não numérica)
-
-Exibe:
-
-Valor inválido! Digite um número válido.
-
-
-Solicita o número novamente.
+1. **Entrada inválida (não numérica)**  
+   - Exibe:
+   ```text
+   ⚠️ Valor inválido! Digite um número válido.
+2. Solicita o número novamente.
 
 Divisão por zero
 
 Exibe:
-
-Erro: não é possível fazer divisão por 0!
-
-
-Impede a operação inválida.
-
+   ```text
+🚫 Erro: não é possível fazer divisão por 0!
+   ```
 ▶️ Como Executar
 
-Instale o Node.js: Node.js Download
+1. Instale o Node.js → Node.js Download
 
-Clone o repositório ou copie o código para uma pasta
+2. Clone o repositório ou copie o código para uma pasta
 
-Instale o prompt-sync:
-
+3. Instale o prompt-sync:
+ ```text
 npm install prompt-sync
-
-
-Execute a calculadora:
-
+   ```
+4. Execute a calculadora:
+ ```text
 node calculadora.js
-
+   ```
 📌 Exemplo de Uso
-Bem-vindo - Calculadora Simples -
+ ```text
+  ==============================
+ Bem-vindo - Calculadora Simples
+==============================
 
 Operações disponíveis: +  -  *  /
 Digite a operação (ou 'sair' para encerrar): +
 Digite o primeiro número: 10
 Digite o segundo número: 5
 Resultado: 10 + 5 = 15
+```
 
 🎯 Objetivos de Aprendizado
 
@@ -94,5 +94,9 @@ Trabalhar com loops e condições
 ✍️ Autor
 
 Lucas Gabriel
+
 Programa: Bolsa Futuro Digital – Softex
-Aprendizado: Fundamentos de Node.js
+
+  
+
+
