@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-// Funções para operações:
+// Funções básicas da calculadora
 function somar(a, b) {
     return a + b;
 }
@@ -13,6 +13,7 @@ function multiplicar(a, b) {
     return a * b;
 }
 
+    // Validação para evitar divisão por zero
 function dividir(a, b) {
     if (b === 0) {
         console.log("Erro: não é possível fazer divisão por 0!");
@@ -22,7 +23,7 @@ function dividir(a, b) {
     }
 }
 
-// Ler número válido!
+// Função para garantir que o usuário digite um número válido
 function lerNumero(mensagem) {
     let numero;
     do {
@@ -37,7 +38,8 @@ function lerNumero(mensagem) {
 // Função principal
 function calculadora() {
     console.log("Bem-vindo - Calculadora Simples -");
-    
+
+        // Loop infinito até o usuário digitar "sair"
     while (true) {
         console.log("\nOperações disponíveis: +  -  *  /");
         
@@ -63,6 +65,7 @@ function calculadora() {
         let resultado;
         let operacaoValida = false;
         
+                // Executa a operação escolhida
         do {
             switch(operacao) {
                 case "+":
@@ -89,6 +92,7 @@ function calculadora() {
             }
         } while (!operacaoValida);
         
+                // Exibe o resultado da operação, desde que não seja nulo (erro de divisão por zero)
         if (resultado !== null) {
             console.log(`Resultado: ${numero1} ${operacao} ${numero2} = ${resultado}`);
         }
