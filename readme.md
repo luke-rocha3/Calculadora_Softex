@@ -95,7 +95,7 @@ Trabalhar com loops e condições
 - Implementar histórico de operações
 - Permitir múltiplas operações em sequência
 - Suporte a exponenciação e raiz quadrada
-- Interface gráfica simple
+- Interface gráfica simples
 
 ✍️ Autor
 
