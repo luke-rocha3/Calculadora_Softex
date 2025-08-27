@@ -91,6 +91,12 @@ Validar entradas e tratar erros
 
 Trabalhar com loops e condições
 
+## 📈 Melhorias Futuras
+- Implementar histórico de operações
+- Permitir múltiplas operações em sequência
+- Suporte a exponenciação e raiz quadrada
+- Interface gráfica simple
+
 ✍️ Autor
 
 Lucas Gabriel
